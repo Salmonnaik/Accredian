@@ -1,0 +1,26 @@
+{
+  "name": "SaaS Backend API",
+  "description": "Production-ready SaaS backend API",
+  "keywords": ["saas", "api", "express", "nodejs"],
+  "repository": "https://github.com/Salmonnaik/Accredian.git",
+  "logo": "",
+  "website": "",
+  "success_url": "/health",
+  "scripts": {
+    "postdeploy": "npm install"
+  },
+  "env": {
+    "NODE_ENV": {
+      "value": "production"
+    },
+    "PORT": {
+      "value": "5000"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
